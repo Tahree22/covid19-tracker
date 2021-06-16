@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Covid19 Tracker</title>
+    </head>
+    <body>
+        <!-- <div class= "grid">
+            <span>Affected States</span>
+            <span>No. of Cases (lab confirmed)</span>
+            <span>No. of Cases (on admission)</span>
+            <span>Discharged</span>
+            <span>Deaths</span>
+        </div> -->
+        
+
+        <div class="data-table">
+            <div class="search">
+                <h2>COVID19 TRACKER</h2>
+                <input type="text" id="search-icon">
+            </div>
+            <div class="virus-icon">
+                <img src="./icons/virus.svg" alt="virus image">
+                <img src="./icons/virus.svg" alt="virus image">
+            </div>
+            <table>
+                <tr>
+                    <th>Affected States</th>
+                    <th>No. of Cases (lab confirmed)</th>
+                    <th>No. of Cases (on admission)</th>
+                    <th>No. of Discharged</th>
+                    <th>No. of Deaths</th>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+                <tr>
+                    <td id = "affected_states"></td>
+                    <td id = "lab_confirmed"></td>
+                    <td id = "on_admission"></td>
+                    <td id = "discharged_numbers"></td>
+                    <td id = "death_numbers"></td>
+                </tr>
+            </table>
+            
+        </div>
+
+
+    </body>
+</html>
