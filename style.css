@@ -23,6 +23,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    color: white;
     background-color: hsl(217, 28%, 15%);
 }
 
@@ -44,7 +45,8 @@ th, td {
   }
 
   tr:hover{
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
+    background-color: black;
     border: none;
   }
 
@@ -59,6 +61,15 @@ th, td {
       justify-content: space-between;
       margin-top: 50px;
       margin-right: 50px;   
+  }
+
+  .search-bar button{
+      outline: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      width: 70px;
+      /* font-size: x-small; */
+      font-size: 12px;
   }
 
   input[type=text]:focus {
@@ -92,4 +103,39 @@ th, td {
     .virus-icon{
         display: flex;
         justify-content: space-between;
+    }
+
+    @media only screen 
+    and (min-device-width: 320px) {
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+
+
+
+        /* table{
+            width: 50vw;
+        }
+
+        .search{
+            display: unset;
+        }
+
+        h2{
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .search input{
+            width: 100px;
+            margin-right: 5px;
+        }
+        .search-bar{
+            /* margin-right: 10px; */
+            display: flex;
+            justify-content: flex-end;
+        } */
+
     }
