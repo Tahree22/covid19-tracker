@@ -183,11 +183,11 @@ th, td {
     }
   
     .search-bar-none input[type=text]{
-        background-position: 5px 5px;
+        background-position: 3px 3px;
         width: 70%;
         height: 25px;
         outline: none;
-        padding-left: 10px;
+        padding-left: 25px;
         border: none;
         border-radius: 5px;
       }
@@ -195,6 +195,10 @@ th, td {
     .virus-icon{
         margin-bottom: 20px;
     }
-  
+    
+    tr:hover{
+        background-color: black;
+        border: none;
+      }
 
     }
