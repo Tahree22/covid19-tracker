@@ -171,7 +171,7 @@ th, td {
         width: 25%;
         height: 25px;
         font-size: 10px;
-        border-radius: 5px;
+        border-radius: 3px;
     }
 
     button:hover{
@@ -195,7 +195,7 @@ th, td {
         outline: none;
         padding-left: 25px;
         border: none;
-        border-radius: 5px;
+        border-radius: 3px;
       }
 
     .virus-icon{
