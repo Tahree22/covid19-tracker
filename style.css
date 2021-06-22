@@ -84,10 +84,15 @@ th, td {
 
   .search-bar button{
       outline: none;
-      padding-top: 5px;
-      padding-bottom: 5px;
+      height: 30px;
       width: 70px;
       font-size: 12px;
+      border: none;
+      border-radius: 3px;
+  }
+
+  button:hover{
+    background-color:#a8e29b;
   }
 
   input[type=text]:focus {
@@ -103,6 +108,7 @@ th, td {
       outline: none;
       padding-left: 30px;
       border: none;
+      border-radius: 3px;
     }
 
     h2{
