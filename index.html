@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Covid19 Tracker</title>
-    </head>
-    <body>
-        <!-- <div class= "grid">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Covid19 Tracker</title>
+  </head>
+  <body>
+    <!-- <div class= "grid">
             <span>Affected States</span>
             <span>No. of Cases (lab confirmed)</span>
             <span>No. of Cases (on admission)</span>
@@ -15,34 +15,64 @@
             <span>Deaths</span>
         </div> -->
 
-
-        <div class="data-table">
-            <div class="search">
-                <h2>COVID19 TRACKER</h2>
-                <div class="search-bar">
-                    <input type="text" id="search-icon">
-                <button>SEARCH</button>
-                </div>
-                
-            </div>
-            <div class="virus-icon">
-                <img src="./icons/virus.svg" alt="virus image">
-                <img src="./icons/virus.svg" alt="virus image">
-            </div>
-            <table id="table">
-                <tr>
-                    <th>Affected States</th>
-                    <th>No. of Cases (lab confirmed)</th>
-                    <th>No. of Cases (on admission)</th>
-                    <th>No. of Discharged</th>
-                    <th>No. of Deaths</th>
-                </tr>
-              
-
-            </table>
-
+    <!-- <div class="header">
+      <div class="search">
+        <div class="heading">
+          <img
+            class="head-img"
+            src="./icons/Nigerian-flag-waving-vector-on-transparent-background-PNG.png"
+            alt="waving flag"
+          />
+          <h2>COVID19 TRACKER</h2>
         </div>
 
-        <script  src="./index.js"></script>
-    </body>
+        <div class="search-bar">
+          <input type="text" id="search-icon" />
+          <button>SEARCH</button>
+        </div>
+      </div>
+      </div>
+      <div class="virus-icon">
+        <img src="./icons/virus.svg" alt="virus image" />
+        <img src="./icons/virus.svg" alt="virus image" />
+      </div>
+    </div> -->
+
+    <div class="header">
+      <div class="search">
+        <div class="heading">
+          <img
+            class="head-img" src="./icons/Nigerian-flag-waving-vector-on-transparent-background-PNG.png" alt="waving flag"
+          />
+          <h2>COVID19 TRACKER</h2>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-icon" />
+            <button>SEARCH</button>
+        </div> <br>
+        <div class="search-bar-none">
+            <input type="text" id="search-icon" />
+            <button>SEARCH</button>
+        </div>
+      </div>
+      <div class="virus-icon">
+        <img src="./icons/virus.svg" alt="virus image" />
+        <img src="./icons/virus.svg" alt="virus image" />
+      </div>
+    </div>
+
+    <div class="table-data">
+      <table id="table">
+        <tr>
+          <th>Affected States</th>
+          <th>No. of Cases (lab confirmed)</th>
+          <th>No. of Cases (on admission)</th>
+          <th>No. of Discharged</th>
+          <th>No. of Deaths</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
 </html>

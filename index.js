@@ -12,11 +12,11 @@ fetch('https://covidnigeria.herokuapp.com/api')
         const discharged_numbers = document.createElement('td')
         const death_numbers  = document.createElement('td')
 
-        affected_states.setAttribute("id","affected_states")
-        lab_confirmed.setAttribute("id","lab_confirmed")
-        on_admission.setAttribute("id","on_admission")
-        discharged_numbers.setAttribute("id","discharged_numbers")
-        death_numbers.setAttribute("id","death_numbers")
+        // affected_states.setAttribute("id","affected_states")
+        // lab_confirmed.setAttribute("id","lab_confirmed")
+        // on_admission.setAttribute("id","on_admission")
+        // discharged_numbers.setAttribute("id","discharged_numbers")
+        // death_numbers.setAttribute("id","death_numbers")
 
         affected_states.textContent = value.state
         lab_confirmed.textContent = value.confirmedCases
